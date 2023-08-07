@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: admin
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+vault:
+  token: root
+  scheme: http
+  host: 127.0.0.1
+  port: 8200
+  uri: http://127.0.0.1:8200

@@ -1,0 +1,29 @@
+# Created by http://gitignore.io
+
+### Windows ###
+# Windows image file caches
+spring-boot/Thumbs.db
+spring-boot/ehthumbs.db
+
+### OSX ###
+**/.DS_Store
+
+### Java ###
+spring-boot/**/*.class
+
+# Package Files #
+spring-boot/**/*.jar
+spring-boot/**/*.war
+spring-boot/**/*.ear
+
+### Gradle ###
+# Exclude Folder List #
+spring-boot/.gradle/
+spring-boot/build/
+
+### VSCode ###
+spring-boot/.vscode
+
+### Terraform ###
+terraform-postgresql-docker/.terraform*
+terraform-postgresql-docker/terraform.tfstate*
